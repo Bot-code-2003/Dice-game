@@ -1,0 +1,63 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+body {
+  background-color: rgb(185, 185, 13);
+}
+
+h1 {
+  margin: 20px;
+  font-family: "Playpen Sans", cursive;
+  text-shadow: 5px 0 rgba(0, 0, 0, 0.303);
+  font-size: 6rem;
+  color: black;
+}
+
+h2 {
+  margin: 10px;
+  font-family: "Playpen Sans", cursive;
+  text-shadow: 5px 0 rgba(0, 0, 0, 0.303);
+  font-size: 3rem;
+  color: black;
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+  font-family: "Playpen Sans", cursive;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  margin-top: 2%;
+  color: #2b2b2b;
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+}
+
+a {
+  /* text-decoration: none; */
+  color: #2b2b2b;
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+}
