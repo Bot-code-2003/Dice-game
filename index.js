@@ -1,12 +1,12 @@
 // alert("Hello Master!");
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber1 + ".png";
-var randomImageSrc = "./" + randomDiceImage;
+var randomImageSrc = "./images/" + randomDiceImage;
 document.querySelector(".img1").setAttribute("src", randomImageSrc);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber2 + ".png";
-var randomImageSrc = "./" + randomDiceImage;
+var randomImageSrc = "./images/" + randomDiceImage;
 document.querySelector(".img2").setAttribute("src", randomImageSrc);
 
 if (randomNumber1 > randomNumber2) {
